@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francisca Miranda</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/gallery.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="../english/englishindex.html" class="header-name"
+          >Francisca Miranda</a
+        >
+        <nav class="navbar">
+          <ul class="navbar-links">
+            <li><a href="../english/aboutenglish.html">about me</a></li>
+            <li><a href="../english/aboutgallery.html">projects</a></li>
+            <li><a href="../projectpages/proj10.html">pt</a></li>
+          </ul>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/francisca-miranda-18702b347/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/franciscaolive"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="project-detail">
+      <div class="project-header">
+        <h1>Glitch Box</h1>
+      </div>
+
+      <div class="project-videos">
+        <video width="640" height="360" controls>
+          <source
+            src="https://www.dropbox.com/scl/fi/udugoi64m13z9lb1f7kta/glitchbox.mp4?rlkey=fntys7kwb5asuwdoyirb6rgck&st=gy5m157w&raw=1"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="project-description">
+        <p>
+          Glitch Box is an interactive installation, inspired by the Nintendo
+          game, <em>Super Mario</em>, that allows for the spectator to interact
+          with a 3D asset, a surprise box. Every time the spectator touches this
+          box, it plays a sound and disappears, appearing elsewhere, ready to
+          repeat that event. The box can randomly appear in any part of the
+          screen. and the spectator has to move around the entire room to be
+          able to successfuly play.
+        </p>
+        <p>
+          My colleague Alice Logvina and I developed this project together under
+          the guidance of Professor Tiago Dionísio. We chose to use a Kinect in
+          combination with Max and Processing, and created a patch that
+          communicates via OSC. In Max, we were able to associate spheres with
+          the hands, which allowed us to detect movements and generate real-time
+          interactions. We integrated the 3D patch with the full scene,
+          including elements like the castle, clouds, and the 'mystery box',
+          which became the centerpiece of the interactive experience. We worked
+          on the collision between objects and the hands, creating distinct
+          sound responses for each one, and adjusted the movement axes for
+          greater realism. To improve the scene's lighting, we explored Max's
+          documentation and added light parameters that made the environment
+          brighter and more immersive. The clouds were animated to bring more
+          dynamism to the installation, and to complete the experience, we
+          decided to include the Super Mario music, which plays on a loop
+          throughout the interaction.
+        </p>
+        <p></p>
+      </div>
+
+      <a href="../english/aboutgallery.html" class="cta-button"
+        >Back to projects</a
+      >
+    </section>
+
+    <footer>
+      <p>© 2025 | Francisca Miranda | franciscaolivmir@gmail.com</p>
+    </footer>
+  </body>
+</html>
