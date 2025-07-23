@@ -117,8 +117,8 @@ body {
 }
 
 .about-photo {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
